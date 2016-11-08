@@ -14,9 +14,9 @@ cam.position.z = 5;
 
 
 var render = function () {
-	requestAnimationFrame(render)
+	requestAnimationFrame(render);
 
-	renderer.render(scene, cam)
+	renderer.render(scene, cam);
 }
 
 render()
