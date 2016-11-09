@@ -74,11 +74,3 @@ document.addEventListener("mousemove", function(evt) {
 
 
 render();
-document.requestPointerLock = document.requestPointerLock || document.mozRequestPointerLock;
-
-document.addEventListener("keydown", function(evt) {
-	if (evt.key === "R") {
-		console.log(evt);
-		document.requestPointerLock()
-	}
-})
